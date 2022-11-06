@@ -1,51 +1,84 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
-    padding: 50px;
-    background-color: rgb(84, 84, 109);
+    padding: 20px;
+    background-color: rgba(22, 77, 128, 0.918);
 }
 
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .box {
-    padding: 20px;
-    max-width: 450px;
+    padding: 15px;
+    width: 380px;
+    border-radius: 20px;
     text-align: center;
+    background-color: rgb(213, 222, 230);
     /* box-shadow: 0px 0px 43px 17px rgb(252, 249, 246); */
 }
 
 input {
-    max-width: 372px;
+    max-width: 400px;
     padding: 24px;
     font-size: 26px;
     opacity: 0.5;
+    border-style: none;
+    text-align: right;
+    color: black;
+    background-color: rgb(165, 209, 235);
+    border-radius: 10px;
 }
 
 button {
     padding: 10px;
-    border-radius: 3px solid;
-    background-color: rgb(209, 209, 238);
-    border-color: rgb(252, 249, 246);
-    width: 90px;
-    font-size: 30px;
+    margin: 5px;
+    background-color: rgb(165, 209, 235);
+    color: rgb(76, 154, 206);
+    border-style: none;
+    width: 63px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#num {
+    padding: 10px;
+    margin: 5px;
+    color: rgb(25, 15, 82);
+    background-color: rgb(145, 179, 199);
+    border-style: none;
+    width: 63px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
 button:hover {
     background-color: aliceblue;
 }
 
+#num:hover {
+    background-color: aliceblue;
+}
+
 #equal {
     background-color: rgb(90, 90, 245);
     border-color: rgb(90, 90, 245);
+    width: 140px;
+    color: white;
 }
 
-#ac {
-    background-color: rgb(250, 32, 32);
-    border-color: rgb(250, 32, 32);
+#equal:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.rf {
+    height: 63px;
 }
