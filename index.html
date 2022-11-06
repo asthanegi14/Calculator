@@ -12,51 +12,71 @@
           href="style.css">
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js">
+    </script>
 </head>
 
 <body>
-    <h1>CALCULATOR</h1>
+    <h1>CALCULATOR<img src="ezgif.com-gif-maker.gif"
+             alt="gif"
+             width="90"></h1>
     <br>
     <center>
         <div class="box">
-            <input type="text"
-                   id="inp">
-            <br>
             <center>
+                <br>
+                <input type="text"
+                       id="inp">
                 <table class="btns">
                     <tr>
-                        <td><button id="ac">AC</button></td>
-                        <td><button>(</button></td>
-                        <td><button>)</button></td>
-                        <td><button>%</button></td>
+                        <td><button> <b>(</b> </button></td>
+                        <td><button><b> )</b> </button></td>
+                        <td><button id="ans"><b> ans</b> </button></td>
+                        <td><button id="del"><b> del</b> </button></td>
+                        <td><button id="ac"><b> clear</b> </button></td>
                     </tr>
 
                     <tr>
-                        <td><button>7</button></td>
-                        <td><button>8</button></td>
-                        <td><button>9</button></td>
-                        <td><button>X</button></td>
+                        <td><button class="rf"
+                                    id="num"><b> 7</b> </button></td>
+                        <td><button class="rf"
+                                    id="num"><b> 8</b> </button></td>
+                        <td><button class="rf"
+                                    id="num"><b> 9</b> </button></td>
+                        <td><button class="rf"><b> %</b> </button></td>
+                        <td><button class="rf"><b> &#8730</b> </button></td>
                     </tr>
                     <tr>
 
-                        <td><button>4</button></td>
-                        <td><button>5</button></td>
-                        <td><button>6</button></td>
-                        <td><button>-</button></td>
+                        <td><button class="rf"
+                                    id="num"><b> 4</b> </button></td>
+                        <td><button class="rf"
+                                    id="num"><b> 5</b> </button></td>
+                        <td><button class="rf"
+                                    id="num"><b> 6</b> </button></td>
+                        <td><button class="rf"><b> x</b> </button></td>
+                        <td><button class="rf"><b> &#247</b> </button></td>
                     </tr>
                     <tr>
 
-                        <td><button>1</button></td>
-                        <td><button>2</button></td>
-                        <td><button>3</button></td>
-                        <td><button>+</button></td>
+                        <td><button class="rf"
+                                    id="num"><b> 1</b> </button></td>
+                        <td><button class="rf"
+                                    id="num"><b> 2</b> </button></td>
+                        <td><button class="rf"
+                                    id="num"><b> 3</b> </button></td>
+                        <td><button class="rf"><b> +</b> </button></td>
+                        <td><button class="rf"><b> -</b> </button></td>
                     </tr>
+                </table>
+                <table class="btns">
                     <tr>
-                        <td><button>0</button></td>
-                        <td><button>.</button></td>
-                        <td><button>/</button></td>
-                        <td><button id="equal">=</button></td>
-
+                        <td><button class="rf"><b> .</b> </button></td>
+                        <td><button class="rf"
+                                    id="num"><b> 0</b> </button></td>
+                        <td><button class="rf"><b> &#8723<b> </button></td>
+                        <td><button class="rf"
+                                    id="equal"><b> ENTER</b> </button></td>
                     </tr>
                 </table>
             </center>
